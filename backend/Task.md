@@ -35,6 +35,6 @@ Relazione:
 
 
 GET /materie --> per avere tutte le materie
-GET /quizs?idMateria  --> per ottenere i quiz 
+GET /quiz?idMateria  --> per ottenere i quiz 
 
-POST /quizs   --> per ottnere quiz in base al config quiz
+POST /quiz   --> per ottnere quiz in base al config quiz

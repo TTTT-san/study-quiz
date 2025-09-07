@@ -22,7 +22,7 @@ const QuizScreen = () => {
     const postConfigQuiz = async () => {
 
       try {
-        const response = await axios.post(`${BASE_API}/api/quizs`, quizConfig);
+        const response = await axios.post(`${BASE_API}/api/quiz`, quizConfig);
         console.log('Risposta dal server:', response.data);
 
         let questionsData = response.data;

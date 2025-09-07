@@ -25,7 +25,7 @@ public class QuizRestController {
     @Autowired
     QuizService quizService;
 
-    @GetMapping("/quizs")
+    @GetMapping("/quiz")
     public List<QuizDto> getQuizByIdMateria(@RequestParam("idMateria") Long IdMateria) {
 
         System.out.println("QuizRestC | getQuizByIdMateria start");
@@ -40,7 +40,7 @@ public class QuizRestController {
         return listQuizDTOs;
     }
 
-    @PostMapping("/quizs")
+    @PostMapping("/quiz")
     public List<QuizDto> getQuizByConfig(@RequestBody QuizConfigDto quizConfigDto) {
 
         System.out.println("QuizRestC | getQuizByIdMateria start");
