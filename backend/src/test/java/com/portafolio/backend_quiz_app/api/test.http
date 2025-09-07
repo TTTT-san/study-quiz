@@ -1,0 +1,22 @@
+
+GET http://localhost:8080/api/quizs?idMateria=2
+
+
+
+
+POST http://localhost:8080/api/quizs
+Content-Type: application/json
+{
+  "materiaId": 2,
+  "materia": "React",
+  "difficulty": 2,
+  "numQuestions": 10,
+  "help": true
+}
+
+
+
+
+
+
+
